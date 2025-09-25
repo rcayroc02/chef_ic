@@ -1,0 +1,38 @@
+##
+# Configuración básica de Nginx
+# Generado automáticamente por Chef
+##
+
+server {
+    listen <%= @port %> default_server;
+    listen [::]:<%= @port %> default_server;
+
+    server_name <%= @server_name %>;
+    root <%= @document_root %>;
+    index index.html index.htm;
+
+    # logs básicos
+    access_log /var/log/nginx/access.log;
+    error_log /var/log/nginx/error.log;
+
+    # configuración básica
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    # servir archivos estáticos
+    location ~* \.(jpg|jpeg|png|gif|ico|css|js)$ {
+        expires 1y;
+        add_header Cache-Control "public";
+    }
+
+    # página de información del sistema
+    location /info {
+        try_files $uri $uri/ =404;
+    }
+
+    # negar acceso a archivos ocultos
+    location ~ /\. {
+        deny all;
+    }
+}

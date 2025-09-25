@@ -1,0 +1,8 @@
+{
+  "run_list": ["recipe[prueba]"],
+  "prueba": {
+    "app_name": "Mi App Docker",
+    "server_name": "docker-server",
+    "app_version": "1.0.0"
+  }
+}

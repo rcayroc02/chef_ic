@@ -1,0 +1,70 @@
+chef generate cookbook prueba
+
+crear directorios necesarios
+        New-Item -ItemType Directory -Path "attributes" -Force
+        New-Item -ItemType Directory -Path "templates" -Force
+        New-Item -ItemType Directory -Path "files" -Force
+        New-Item -ItemType Directory -Path "libraries" -Force
+
+verificar estructura
+        Get-ChildItem -Recurse
+
+validar sintaxis
+        chef exec cookstyle .
+
+
+
+
+COMANDOS DE DOCKER En otro terminal
+
+# Dentro del contenedor, salir
+    exit
+    docker stop test-chef
+    docker rm test-chef
+
+# Eliminar la imagen para reconstruir limpia
+    docker rmi chef-prueba
+
+# Verificar que se eliminó todo
+    docker ps -a
+    docker images
+
+# Verificar que estás en el directorio correcto
+    Get-Location
+# Debe mostrar: C:\Users\ROG\Desktop\chef\prueba
+
+# Construir imagen nueva
+    docker build -t chef-prueba .
+
+# Ejecutar con mapeo de puerto correcto
+    docker run -it --name test-chef -p 8080:80 chef-prueba
+
+
+    chef-solo -c /cookbooks/prueba/solo.rb
+
+
+
+
+ver resultado
+curl http://localhost
+
+verificar servicios
+        service nginx status
+
+
+instalar nano para modificar archivos en el container de linux
+
+    # Usar el editor nano para editar el archivo
+    apt-get update && apt-get install -y nano
+
+    # Editar solo.rb
+    nano /cookbooks/prueba/solo.rb
+
+
+instalar netstat para probar la pagina
+    apt-get install -y net-tools
+
+
+
+
+

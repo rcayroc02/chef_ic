@@ -1,0 +1,10 @@
+name 'prueba'
+maintainer 'CAYRO'
+maintainer_email 'roberto.cayro@ucsp.edu.pe'
+license 'Apache-2.0'
+description 'Cookbook básico para servidor web con Nginx'
+version '1.0.0'
+chef_version '>= 16.0'
+
+supports 'ubuntu'
+supports 'debian'

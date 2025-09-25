@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= @app_name %></title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #74b9ff, #0984e3);
+            color: #333;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            color: #0984e3;
+            font-size: 2.5em;
+            margin: 0;
+        }
+        
+        .status {
+            background: #00b894;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            display: inline-block;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .info-box {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #0984e3;
+        }
+        
+        .info-box h3 {
+            margin: 0 0 10px 0;
+            color: #2d3436;
+        }
+        
+        .info-value {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #0984e3;
+        }
+        
+        .chef-info {
+            background: #fd79a8;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1> <%= @app_name %></h1>
+            <div class="status"> Server Running </div>
+        </div>
+        
+        <div class="chef-info">
+            <h2>IaC con Chef</h2>
+            
+        </div>
+        
+        <div class="info-grid">
+            <div class="info-box">
+                <h3>App inf</h3>
+                <p>Nombre: <span class="info-value"><%= @app_name %></span></p>
+                <p>Versión: <span class="info-value"><%= @app_version %></span></p>
+                <p>Servidor: <span class="info-value"><%= @server_name %></span></p>
+            </div>
+            
+            <div class="info-box">
+                <h3>System inf</h3>
+                <p>Hostname: <span class="info-value"><%= @node_info[:hostname] %></span></p>
+                <p>Plataforma: <span class="info-value"><%= @node_info[:platform] %></span></p>
+                <p>Memoria: <span class="info-value"><%= @node_info[:memory] %></span></p>
+                <p>CPUs: <span class="info-value"><%= @node_info[:cpu] %></span></p>
+            </div>
+            
+            <div class="info-box">
+                <h3>Deploy inf</h3>
+                <p>Desplegado: <span class="info-value"><%= @node_info[:deployment_time] %></span></p>
+                <p>Estado: <span class="info-value">Activo</span></p>
+                <p>Servidor Web: <span class="info-value">Nginx</span></p>
+            </div>
+            
+            <div class="info-box">
+                <h3>Info</h3>
+                <ul style="margin: 10px 0; padding-left: 20px;">
+                    <li>Servidor web Nginx configurado</li>
+                    <li>Paquetes del sistema instalados</li>
+                    <li>Página web personalizada</li>
+                    <li>Configuración automática con Chef</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>Infrastructure as Code (IaC) con Chef</strong></p>
+            <p>Cookbook: prueba | Deployment automatizado</p>
+        </div>
+    </div>
+</body>
+</html>
