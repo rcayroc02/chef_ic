@@ -1,0 +1,7 @@
+{
+  "run_list": [
+    "recipe[docker_swarm::default]",
+    "recipe[docker_swarm::webapp]",
+    "recipe[docker_swarm::autoscaling]"
+  ]
+}

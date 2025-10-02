@@ -1,0 +1,1576 @@
+{
+  "name": "LAPTOP-NK727H07.mshome.net",
+  "normal": {
+    "tags": [
+
+    ]
+  },
+  "automatic": {
+    "kernel": {
+      "os_info": {
+        "boot_device": "\\Device\\HarddiskVolume3",
+        "build_number": "26100",
+        "build_type": "Multiprocessor Free",
+        "caption": "Microsoft Windows 11 Home",
+        "code_set": "1252",
+        "country_code": "34",
+        "csd_version": null,
+        "cs_name": "LAPTOP-NK727H07",
+        "current_time_zone": -300,
+        "data_execution_prevention_32_bit_applications": true,
+        "data_execution_prevention_available": true,
+        "data_execution_prevention_drivers": true,
+        "data_execution_prevention_support_policy": 2,
+        "debug": false,
+        "description": "",
+        "distributed": false,
+        "encryption_level": 256,
+        "foreground_application_boost": 2,
+        "install_date": "20250705002220.000000-300",
+        "large_system_cache": null,
+        "last_boot_up_time": "20251002114327.500000-300",
+        "local_date_time": "20251002120312.432000-300",
+        "locale": "0c0a",
+        "manufacturer": "Microsoft Corporation",
+        "max_number_of_processes": -1,
+        "max_process_memory_size": "137438953344",
+        "mui_languages": [
+          "es-ES",
+          "en-US"
+        ],
+        "name": "Microsoft Windows 11 Home|C:\\WINDOWS|\\Device\\Harddisk1\\Partition3",
+        "number_of_licensed_users": 0,
+        "number_of_processes": 316,
+        "number_of_users": 2,
+        "operating_system_sku": 101,
+        "organization": null,
+        "os_architecture": "64 bits",
+        "os_language": 3082,
+        "os_product_suite": 768,
+        "os_type": 18,
+        "other_type_description": null,
+        "pae_enabled": null,
+        "plus_product_id": null,
+        "plus_version_number": null,
+        "portable_operating_system": false,
+        "primary": true,
+        "product_type": 1,
+        "registered_user": "ROG",
+        "serial_number": "00342-20701-98824-AAOEM",
+        "service_pack_major_version": 0,
+        "service_pack_minor_version": 0,
+        "size_stored_in_paging_files": "13631488",
+        "status": "OK",
+        "suite_mask": 784,
+        "system_device": "\\Device\\HarddiskVolume5",
+        "system_directory": "C:\\WINDOWS\\system32",
+        "system_drive": "C:",
+        "total_visible_memory_size": "16387292",
+        "version": "10.0.26100",
+        "windows_directory": "C:\\WINDOWS"
+      },
+      "name": "Microsoft Windows 11 Home",
+      "release": "10.0.26100",
+      "version": "10.0.26100  Build 26100",
+      "os": "WINNT",
+      "product_type": "Workstation",
+      "server_core": false,
+      "cs_info": {
+        "admin_password_status": 3,
+        "automatic_managed_pagefile": true,
+        "automatic_reset_boot_option": true,
+        "automatic_reset_capability": true,
+        "boot_option_on_limit": null,
+        "boot_option_on_watch_dog": null,
+        "boot_rom_supported": true,
+        "boot_status": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "bootup_state": "Normal boot",
+        "caption": "LAPTOP-NK727H07",
+        "chassis_bootup_state": 3,
+        "chassis_sku_number": "Default string",
+        "current_time_zone": -300,
+        "daylight_in_effect": null,
+        "description": "AT/AT COMPATIBLE",
+        "dns_host_name": "LAPTOP-NK727H07",
+        "domain": "WORKGROUP",
+        "domain_role": 0,
+        "enable_daylight_savings_time": true,
+        "front_panel_reset_status": 3,
+        "hypervisor_present": true,
+        "infrared_supported": false,
+        "initial_load_info": null,
+        "install_date": null,
+        "keyboard_password_status": 3,
+        "last_load_info": null,
+        "manufacturer": "ASUSTeK COMPUTER INC.",
+        "model": "ROG Strix G614JV_G614JV",
+        "name": "LAPTOP-NK727H07",
+        "name_format": null,
+        "network_server_mode_enabled": true,
+        "number_of_logical_processors": 20,
+        "number_of_processors": 1,
+        "oem_string_array": [
+          "  ",
+          " ",
+          " ",
+          " ",
+          "90NR0C61-M00880"
+        ],
+        "part_of_domain": false,
+        "pause_after_reset": "-1",
+        "pc_system_type": 2,
+        "pc_system_type_ex": 2,
+        "power_management_capabilities": null,
+        "power_management_supported": null,
+        "power_on_password_status": 3,
+        "power_state": 0,
+        "power_supply_state": 3,
+        "primary_owner_contact": null,
+        "primary_owner_name": "ROG",
+        "reset_capability": 1,
+        "reset_count": -1,
+        "reset_limit": -1,
+        "roles": [
+          "LM_Workstation",
+          "LM_Server",
+          "NT"
+        ],
+        "status": "OK",
+        "support_contact_description": null,
+        "system_family": "ROG Strix",
+        "system_sku_number": " ",
+        "system_startup_delay": null,
+        "system_startup_options": null,
+        "system_startup_setting": null,
+        "system_type": "x64-based PC",
+        "thermal_state": 3,
+        "total_physical_memory": "16780587008",
+        "user_name": "LAPTOP-NK727H07\\ROG",
+        "wake_up_type": 6,
+        "workgroup": "WORKGROUP"
+      },
+      "machine": "x86_64",
+      "system_type": "Mobile"
+    },
+    "memory": {
+      "swap": {
+        "total": "13631488kB",
+        "free": "13627076kB"
+      },
+      "total": "16387292kB",
+      "free": "2859452kB"
+    },
+    "network": {
+      "interfaces": {
+        "0x4": {
+          "configuration": {
+            "ip_address": [
+              "192.168.1.38",
+              "fe80::c5ad:3cd9:9ea5:69b7"
+            ],
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000001] Realtek PCIe GbE Family Controller",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": [
+              "192.168.1.1"
+            ],
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "Realtek PCIe GbE Family Controller",
+            "dhcp_enabled": true,
+            "dhcp_lease_expires": "20251003114355.000000-300",
+            "dhcp_lease_obtained": "20251002114355.000000-300",
+            "dhcp_server": "192.168.1.1",
+            "dns_domain": "hgu_lan",
+            "dns_domain_suffix_search_order": [
+              "hgu_lan"
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "LAPTOP-NK727H07",
+            "dns_server_search_order": [
+              "8.8.8.8",
+              "1.1.1.1"
+            ],
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": [
+              0
+            ],
+            "igmp_level": null,
+            "index": 1,
+            "interface_index": 4,
+            "ip_connection_metric": 25,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.255.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "08:BF:B8:C6:D2:08",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "rt68cx21",
+            "setting_id": "{29F57329-198F-4193-A005-7EBDF3D08782}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000001] Realtek PCIe GbE Family Controller",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "description": "Realtek PCIe GbE Family Controller",
+            "device_id": "1",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{29F57329-198F-4193-A005-7EBDF3D08782}",
+            "index": 1,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 4,
+            "last_error_code": null,
+            "mac_address": "08:BF:B8:C6:D2:08",
+            "manufacturer": "Realtek",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "Realtek PCIe GbE Family Controller",
+            "net_connection_id": "Ethernet",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "PCI\\VEN_10EC&DEV_8168&SUBSYS_205F1043&REV_15\\01000000684CE00000",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "Realtek PCIe GbE Family Controller",
+            "service_name": "rt68cx21",
+            "speed": "1000000000",
+            "status": null,
+            "status_info": null,
+            "system_name": "LAPTOP-NK727H07",
+            "time_of_last_reset": "20251002114327.500000-300"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "192.168.1.38": {
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "192.168.1.255",
+              "family": "inet"
+            },
+            "fe80::c5ad:3cd9:9ea5:69b7": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "08:BF:B8:C6:D2:08": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+
+          },
+          "encapsulation": "Ethernet"
+        }
+      },
+      "default_gateway": "192.168.1.1",
+      "default_interface": "0x4"
+    },
+    "counters": {
+      "network": {
+
+      }
+    },
+    "ipaddress": "192.168.1.38",
+    "macaddress": "08:BF:B8:C6:D2:08",
+    "ip6address": "fe80::c5ad:3cd9:9ea5:69b7",
+    "os": "windows",
+    "os_version": "10.0.26100",
+    "platform": "windows",
+    "platform_version": "10.0.26100",
+    "platform_family": "windows",
+    "uptime_seconds": 1186,
+    "uptime": "19 minutes 46 seconds",
+    "dmi": {
+
+    },
+    "virtualization": {
+      "systems": {
+
+      }
+    },
+    "languages": {
+      "java": {
+        "version": "17.0.9",
+        "runtime": {
+          "name": "Java(TM) SE Runtime Environment",
+          "build": "17.0.9+11-LTS-201"
+        },
+        "hotspot": {
+          "name": "Java HotSpot(TM) 64-Bit Server VM",
+          "build": "17.0.9+11-LTS-201, mixed mode, sharing"
+        }
+      },
+      "nodejs": {
+        "version": "22.19.0"
+      },
+      "perl": {
+        "version": "5.8.8",
+        "archname": "msys-64int"
+      },
+      "powershell": {
+        "version": "5.1.26100.6584",
+        "ws_man_stack_version": "3.0",
+        "serialization_version": "1.1.0.1",
+        "clr_version": "4.0.30319.42000",
+        "build_version": "10.0.26100.6584",
+        "compatible_versions": [
+          "1.0",
+          "2.0",
+          "3.0",
+          "4.0",
+          "5.0",
+          "5.1.26100.6584"
+        ],
+        "remoting_protocol_version": "2.3"
+      },
+      "python": {
+        "version": "3.12.7",
+        "builddate": "packaged by Anaconda, "
+      },
+      "ruby": {
+        "platform": "x64-mingw32",
+        "version": "2.6.3",
+        "release_date": "2019-04-16",
+        "target": "x86_64-w64-mingw32",
+        "target_cpu": "x64",
+        "target_vendor": "w64",
+        "target_os": "mingw32",
+        "host": "x86_64-w64-mingw32",
+        "host_cpu": "x86_64",
+        "host_os": "mingw32",
+        "host_vendor": "w64",
+        "bin_dir": "C:/opscode/chef-workstation/embedded/bin",
+        "ruby_bin": "C:/opscode/chef-workstation/embedded/bin/ruby",
+        "gems_dir": "C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.6.0",
+        "gem_bin": "C:/opscode/chef-workstation/embedded/bin/gem"
+      }
+    },
+    "chef_packages": {
+      "chef": {
+        "version": "15.0.300",
+        "chef_root": "C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.6.0/gems/chef-15.0.300-universal-mingw32/lib"
+      },
+      "ohai": {
+        "version": "15.0.35",
+        "ohai_root": "C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.6.0/gems/ohai-15.0.35/lib/ohai"
+      }
+    },
+    "cloud": null,
+    "command": {
+
+    },
+    "cpu": {
+      "0": {
+        "cores": 14,
+        "vendor_id": "GenuineIntel",
+        "family": "198",
+        "model": "",
+        "stepping": "1",
+        "physical_id": "CPU0",
+        "model_name": "13th Gen Intel(R) Core(TM) i7-13650HX",
+        "description": "Intel64 Family 6 Model 183 Stepping 1",
+        "mhz": "2600",
+        "cache_size": "11776 KB"
+      },
+      "total": 20,
+      "cores": 14,
+      "real": 1
+    },
+    "filesystem": {
+      "C:": {
+        "kb_size": 484707733,
+        "kb_available": 135121629,
+        "kb_used": 349586104,
+        "percent_used": 72,
+        "mount": "C:",
+        "fs_type": "ntfs",
+        "volume_name": "os",
+        "encryption_status": "FullyEncrypted"
+      },
+      "D:": {
+        "kb_size": 2000381014,
+        "kb_available": 1308503879,
+        "kb_used": 691877135,
+        "percent_used": 34,
+        "mount": "D:",
+        "fs_type": "ntfs",
+        "volume_name": "nuevo vol",
+        "encryption_status": "FullyEncrypted"
+      }
+    },
+    "hostname": "LAPTOP-NK727H07",
+    "machinename": "LAPTOP-NK727H07",
+    "fqdn": "LAPTOP-NK727H07.mshome.net",
+    "domain": "mshome.net",
+    "keys": {
+      "ssh": {
+
+      }
+    },
+    "fips": {
+      "kernel": {
+        "enabled": false
+      }
+    },
+    "ohai_time": 1759424597.892119,
+    "packages": {
+      "StarUML 6.3.3": {
+        "version": "6.3.3",
+        "publisher": "MKLabs Co.,Ltd."
+      },
+      "Microsoft Access LTSC - es-es": {
+        "version": "16.0.14332.20216",
+        "publisher": "Microsoft Corporation"
+      },
+      "Android Studio": {
+        "version": "2025.1",
+        "publisher": "Google LLC"
+      },
+      "Docker Desktop": {
+        "version": "4.45.0",
+        "publisher": "Docker Inc."
+      },
+      "Git": {
+        "version": "2.45.1",
+        "publisher": "The Git Development Community",
+        "installdate": "20240519"
+      },
+      "Mozilla Firefox (x64 es-ES)": {
+        "version": "121.0",
+        "publisher": "Mozilla"
+      },
+      "Mozilla Maintenance Service": {
+        "version": "121.0",
+        "publisher": "Mozilla"
+      },
+      "Oculus": {
+        "version": "1.97.0",
+        "publisher": "Facebook Technologies, LLC"
+      },
+      "PostgreSQL 17 ": {
+        "version": "17.5-1",
+        "publisher": "PostgreSQL Global Development Group",
+        "installdate": "20250528"
+      },
+      "Microsoft Project Profesional 2021 - es-es": {
+        "version": "16.0.14332.20216",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Office LTSC Standard 2021 - es-es": {
+        "version": "16.0.14332.20216",
+        "publisher": "Microsoft Corporation"
+      },
+      "Terraria": {
+        "publisher": "Re-Logic"
+      },
+      "Project Zomboid": {
+        "publisher": "The Indie Stone"
+      },
+      "Need for Speed™ Heat": {
+        "publisher": "Electronic Arts, Inc."
+      },
+      "Party Animals": {
+        "publisher": "Recreate Games"
+      },
+      "tModLoader": {
+        "publisher": "TML Team"
+      },
+      "Lethal Company": {
+        "publisher": "Zeekerss"
+      },
+      "Warframe": {
+        "publisher": "Digital Extremes"
+      },
+      "3DMark Demo": {
+        "publisher": "UL"
+      },
+      "METAL GEAR RISING: REVENGEANCE": {
+        "publisher": "PlatinumGames"
+      },
+      "Dying Light": {
+        "publisher": "Techland"
+      },
+      "SteamVR": {
+        "publisher": "Valve"
+      },
+      "Marvel Rivals": {
+        "publisher": "NetEase Games"
+      },
+      "Geometry Dash": {
+        "publisher": "RobTop Games"
+      },
+      "Grand Theft Auto V Enhanced": {
+        "publisher": "Rockstar North"
+      },
+      "R.E.P.O.": {
+        "publisher": "semiwork"
+      },
+      "LEGO® Star Wars™: The Complete Saga": {
+        "publisher": "Traveller's Tales"
+      },
+      "PEAK": {
+        "publisher": "Team PEAK"
+      },
+      "Left 4 Dead 2": {
+        "publisher": "Valve"
+      },
+      "HELLDIVERS™ 2": {
+        "publisher": "Arrowhead Game Studios"
+      },
+      "Half-Life": {
+        "publisher": "Valve"
+      },
+      "Counter-Strike 2": {
+        "publisher": "Valve"
+      },
+      "Phasmophobia": {
+        "publisher": "Kinetic Games"
+      },
+      "Pummel Party": {
+        "publisher": "Rebuilt Games"
+      },
+      "Unity 2022.3.47f1": {
+        "version": "2022.3.47f1",
+        "publisher": "Unity Technologies ApS"
+      },
+      "Microsoft Visio LTSC Professional 2021 - es-es": {
+        "version": "16.0.14332.20216",
+        "publisher": "Microsoft Corporation"
+      },
+      "VLC media player": {
+        "version": "3.0.2",
+        "publisher": "VideoLAN"
+      },
+      "WinRAR 5.50 (64-bit)": {
+        "version": "5.50.0",
+        "publisher": "win.rar GmbH"
+      },
+      "ARMOURY CRATE Service": {
+        "version": "5.9.14",
+        "publisher": "ASUS",
+        "installdate": "20230815"
+      },
+      "ASUS Aac_NBDT HAL": {
+        "version": "2.5.28.0",
+        "publisher": "ASUSTek COMPUTER INC."
+      },
+      "ASUS Monitor Control": {
+        "version": "1.0.5",
+        "publisher": "ASUS",
+        "installdate": "20230815"
+      },
+      "ASUS Hotplug Controller": {
+        "version": "2.0.0",
+        "publisher": "ASUS",
+        "installdate": "20230815"
+      },
+      "NVIDIA Nsight Systems 2019.5.2": {
+        "version": "19.5.2.16",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241102"
+      },
+      "Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219": {
+        "version": "10.0.40219",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240125"
+      },
+      "Geeks3D FurMark 2.8.2.0 x64": {
+        "version": "2.8.2.0",
+        "publisher": "Geeks3D",
+        "installdate": "20250705"
+      },
+      "Git LFS version 3.5.1": {
+        "version": "3.5.1",
+        "publisher": "GitHub, Inc.",
+        "installdate": "20241018"
+      },
+      "ROG Live Service": {
+        "version": "2.4.26.0",
+        "publisher": "ASUSTek COMPUTER INC.",
+        "installdate": "20241220"
+      },
+      "Python 3.12.3 Core Interpreter (64-bit)": {
+        "version": "3.12.3150.0",
+        "publisher": "Python Software Foundation",
+        "installdate": "20240524"
+      },
+      "Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030": {
+        "version": "11.0.61030",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240125"
+      },
+      "Microsoft Server Speech Platform Runtime (x64)": {
+        "version": "11.0.7400.345",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240303"
+      },
+      "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.44.35211": {
+        "version": "14.44.35211",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20250714"
+      },
+      "Gale": {
+        "version": "1.9.5",
+        "publisher": "kesomannen",
+        "installdate": "20250814"
+      },
+      "NVIDIA Nsight Systems 2021.5.2": {
+        "version": "21.5.2.53",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241105"
+      },
+      "Python 3.12.3 Executables (64-bit)": {
+        "version": "3.12.3150.0",
+        "publisher": "Python Software Foundation",
+        "installdate": "20240524"
+      },
+      "Python 3.12.3 Test Suite (64-bit)": {
+        "version": "3.12.3150.0",
+        "publisher": "Python Software Foundation",
+        "installdate": "20240524"
+      },
+      "Windows Subsystem for Linux": {
+        "version": "2.2.4.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240624"
+      },
+      "Python 3.12.3 Documentation (64-bit)": {
+        "version": "3.12.3150.0",
+        "publisher": "Python Software Foundation",
+        "installdate": "20240524"
+      },
+      "Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161": {
+        "version": "9.0.30729.6161",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20250704"
+      },
+      "NVIDIA Nsight Compute 2020.2.0": {
+        "version": "20.2.0.0",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20250908"
+      },
+      "Microsoft Visual Studio Installer": {
+        "version": "3.14.2075.50697",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240602"
+      },
+      "CMake": {
+        "version": "3.30.0",
+        "publisher": "Kitware",
+        "installdate": "20240608"
+      },
+      "Chef Workstation v0.4.2": {
+        "version": "0.4.2.1",
+        "publisher": "\"Chef Software, Inc. <maintainers@chef.io>\"",
+        "installdate": "20250924"
+      },
+      "Java(TM) SE Development Kit 17.0.9 (64-bit)": {
+        "version": "17.0.9.0",
+        "publisher": "Oracle Corporation",
+        "installdate": "20231224"
+      },
+      "Python 3.12.3 pip Bootstrap (64-bit)": {
+        "version": "3.12.3150.0",
+        "publisher": "Python Software Foundation",
+        "installdate": "20240524"
+      },
+      "Microsoft MPI (10.1.12498.52)": {
+        "version": "10.1.12498.52",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240604"
+      },
+      "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.44.35211": {
+        "version": "14.44.35211",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20250714"
+      },
+      "Python 3.12.3 Development Libraries (64-bit)": {
+        "version": "3.12.3150.0",
+        "publisher": "Python Software Foundation",
+        "installdate": "20240524"
+      },
+      "Office 16 Click-to-Run Licensing Component": {
+        "version": "16.0.14332.20216",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20231222"
+      },
+      "Office 16 Click-to-Run Extensibility Component": {
+        "version": "16.0.14332.20216",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20231222"
+      },
+      "Office 16 Click-to-Run Localization Component": {
+        "version": "16.0.14332.20110",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20231222"
+      },
+      "Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240125"
+      },
+      "NVIDIA Nsight Systems 2024.5.1": {
+        "version": "24.5.1.113",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "GlideX Service Installer": {
+        "version": "3.8.2.0",
+        "publisher": "ASUSTeK COMPUTER INC.",
+        "installdate": "20250930"
+      },
+      "Python 3.12.3 Standard Library (64-bit)": {
+        "version": "3.12.3150.0",
+        "publisher": "Python Software Foundation",
+        "installdate": "20240524"
+      },
+      "Python 3.12.3 Tcl/Tk Support (64-bit)": {
+        "version": "3.12.3150.0",
+        "publisher": "Python Software Foundation",
+        "installdate": "20240524"
+      },
+      "Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240125"
+      },
+      "Aura Wallpaper Service": {
+        "version": "1.4.7.2",
+        "publisher": "ASUSTeK COMPUTER INC.",
+        "installdate": "20230815"
+      },
+      "CUBLAS Runtime": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "CUBLAS Development": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NVIDIA CUDA Development 11.1": {
+        "version": "11.1",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20250908"
+      },
+      "NVIDIA CUDA Development 12.6": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NVIDIA CUDA Documentation 11.1": {
+        "version": "11.1",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20250908"
+      },
+      "NVIDIA CUDA Documentation 12.6": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "CUDART Runtime": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NVIDIA CUDA Runtime 11.1": {
+        "version": "11.1",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20250908"
+      },
+      "NVIDIA CUDA Runtime 12.6": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "CUDA Toolkit": {
+        "version": "11.1",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20250908"
+      },
+      "NVIDIA CUDA Toolkit 12.6": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "CUDA Profiler API": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "${{arpDisplayName}}": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "CUFFT Development": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "cuobjdump": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "CUPTI": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "CURAND Runtime": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "CURAND Development": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "CUSOLVER Runtime": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "CUSOLVER Development": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "CUSPARSE Runtime": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "CUSPARSE Development": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "cuxxfilt": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "Demo Suite": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NVIDIA Controlador de gráficos 581.15": {
+        "version": "581.15",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20250828"
+      },
+      "NVIDIA App 11.0.5.266": {
+        "version": "11.0.5.266",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20251001"
+      },
+      "NVIDIA MessageBus 3 for NvApp": {
+        "version": "3.16",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20251001"
+      },
+      "NVIDIA Backend": {
+        "version": "11.0.5.266",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20251001"
+      },
+      "NvCpl": {
+        "version": "1.0",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20251001"
+      },
+      "NVIDIA Software del sistema PhysX 9.23.1019": {
+        "version": "9.23.1019",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20240602"
+      },
+      "CUDA Documentation": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NVIDIA FrameView SDK 1.5.11504.36206172": {
+        "version": "1.5.11504.36206172",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20251001"
+      },
+      "NVIDIA Controlador de audio HD 1.4.5.0": {
+        "version": "1.4.5.0",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20250828"
+      },
+      "NVIDIA Install Application": {
+        "version": "2.1002.438.0",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20251001"
+      },
+      "MEMCHECK": {
+        "version": "11.1",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20250908"
+      },
+      "NPP Runtime": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NPP Development": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NVIDIA CUDA Nsight NVTX 11.1": {
+        "version": "11.1",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20250908"
+      },
+      "nvcc": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NVIDIA Container": {
+        "version": "1.44",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20251001"
+      },
+      "NVIDIA AIUser Container": {
+        "version": "1.44",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20251001"
+      },
+      "NVIDIA LocalSystem Container": {
+        "version": "1.44",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20251001"
+      },
+      "NVIDIA Session Container": {
+        "version": "1.44",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20251001"
+      },
+      "NVIDIA User Container": {
+        "version": "1.44",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20251001"
+      },
+      "Disassembler": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NVIDIA NvDLISR": {
+        "version": "1.0",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20251001"
+      },
+      "NVFATBIN Runtime": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NVJITLINK Runtime": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NVJPEG Runtime": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NVJPEG Development": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NVML Development": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NVIDIA Platform Controllers and Framework": {
+        "version": "580.79",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20250828"
+      },
+      "NVIDIA Watchdog Plugin for NvContainer": {
+        "version": "1.44",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20251001"
+      },
+      "CUDA Profiler Tools": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "nvprune": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NVRTC Runtime": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NVRTC Development": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NVIDIA Telemetry Client": {
+        "version": "19.4.29.0",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20251001"
+      },
+      "NVTX Development": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "Occupancy Calculator": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "OPENCL Runtime": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NVIDIA CUDA Samples 11.1": {
+        "version": "11.1",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20250908"
+      },
+      "Compute Sanitizer": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NVIDIA ShadowPlay 11.0.5.0": {
+        "version": "11.0.5.0",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20251001"
+      },
+      "CUDA CCCL": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NVIDIA Virtual Audio 4.65.0.3": {
+        "version": "4.65.0.3",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20251001"
+      },
+      "Visual Profiler": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NVIDIA CUDA Visual Studio Integration 11.1": {
+        "version": "11.1",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20250908"
+      },
+      "NVIDIA CUDA Visual Studio Integration 12.6": {
+        "version": "12.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "NVIDIA Tools Extension SDK (NVTX) - 64 bit": {
+        "version": "1.00.00.00",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241102"
+      },
+      "Virtual Assistant": {
+        "version": "4.1.1",
+        "publisher": "ASUS",
+        "installdate": "20230815"
+      },
+      "NVIDIA Nsight Systems 2020.3.4": {
+        "version": "20.3.4.32",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20250908"
+      },
+      "EA app": {
+        "version": "13.560.0.6073",
+        "publisher": "Electronic Arts"
+      },
+      "AURA lighting effect add-on x64": {
+        "version": "0.0.44",
+        "publisher": "ASUSTek COMPUTER INC.",
+        "installdate": "20241220"
+      },
+      "Microsoft Update Health Tools": {
+        "version": "5.72.0.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20231223"
+      },
+      "NVIDIA Nsight Systems 2024.2.3": {
+        "version": "24.2.3.38",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20240602"
+      },
+      "Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030": {
+        "version": "11.0.61030",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240125"
+      },
+      "ASUS Aura SDK": {
+        "version": "3.04.46",
+        "publisher": "ASUSTek COMPUTER INC.",
+        "installdate": "20241220"
+      },
+      "Node.js": {
+        "version": "22.19.0",
+        "publisher": "Node.js Foundation",
+        "installdate": "20250904"
+      },
+      "NVIDIA Nsight Visual Studio Edition 2024.3.0.24164": {
+        "version": "24.3.0.24164",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20241110"
+      },
+      "PuTTY release 0.83 (64-bit)": {
+        "version": "0.83.0.0",
+        "publisher": "Simon Tatham",
+        "installdate": "20250419"
+      },
+      "Microsoft GameInput": {
+        "version": "10.1.22621.3036",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20231224"
+      },
+      "Epic Games Launcher Prerequisites (x64)": {
+        "version": "1.0.0.0",
+        "publisher": "Epic Games, Inc.",
+        "installdate": "20240815"
+      },
+      "MSI Afterburner 4.6.5": {
+        "version": "4.6.5",
+        "publisher": "MSI Co., LTD"
+      },
+      "AIMP": {
+        "version": "v4.51.2070, 01.04.2018",
+        "publisher": "AIMP DevTeam",
+        "installdate": "20231222"
+      },
+      "Avast Secure Browser": {
+        "version": "139.0.31974.157",
+        "publisher": "Los creadores de Avast Secure Browser",
+        "installdate": "20250917"
+      },
+      "Brave": {
+        "version": "140.1.82.172",
+        "publisher": "Los creadores de Brave",
+        "installdate": "20250924"
+      },
+      "Display Driver Uninstaller": {
+        "version": "18.1.1.5",
+        "publisher": "Wagnardsoft"
+      },
+      "Google Chrome": {
+        "version": "140.0.7339.208",
+        "publisher": "Google LLC",
+        "installdate": "20250930"
+      },
+      "Graphviz": {
+        "version": "13.1.0",
+        "publisher": "Graphviz"
+      },
+      "GnuWin32: Make-3.81": {
+        "version": "3.81",
+        "publisher": "GnuWin32",
+        "installdate": "20240602"
+      },
+      "Microsoft Edge": {
+        "version": "140.0.3485.94",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20250927"
+      },
+      "WebView2 Runtime de Microsoft Edge": {
+        "version": "140.0.3485.94",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20250926"
+      },
+      "Overwolf": {
+        "version": "0.282.0.9",
+        "publisher": "Overwolf Ltd."
+      },
+      "Rockstar Games Launcher": {
+        "version": "1.0.104.2618",
+        "publisher": "Rockstar Games"
+      },
+      "Rockstar Games SDK": {
+        "version": "2.4.0.118",
+        "publisher": "Rockstar Games"
+      },
+      "RivaTuner Statistics Server 7.3.4": {
+        "version": "7.3.4",
+        "publisher": "Unwinder"
+      },
+      "Steam": {
+        "version": "2.10.91.91",
+        "publisher": "Valve Corporation"
+      },
+      "Ubisoft Connect": {
+        "version": "166.0.12897",
+        "publisher": "Ubisoft"
+      },
+      "GameSDK Service": {
+        "version": "1.0.5.0",
+        "publisher": "ASUSTek COMPUTER INC.",
+        "installdate": "20230815"
+      },
+      "Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.30501": {
+        "version": "12.0.30501.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "Kinect for Windows Speech Recognition Language Pack (en-NZ)": {
+        "version": "11.0.7400.336",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240303"
+      },
+      "Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.44.35211": {
+        "version": "14.44.35211.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240125"
+      },
+      "vs_CoreEditorFonts": {
+        "version": "17.7.40001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240603"
+      },
+      "Avast Update Helper": {
+        "version": "1.8.1697.6",
+        "publisher": "AVAST Software",
+        "installdate": "20240705"
+      },
+      "AURA lighting effect add-on": {
+        "version": "0.0.44",
+        "publisher": "ASUSTek COMPUTER INC.",
+        "installdate": "20241220"
+      },
+      "ASUS Framework Service": {
+        "version": "4.2.0.4",
+        "publisher": "ASUSTeK Computer Inc.",
+        "installdate": "20241220"
+      },
+      "Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.61030": {
+        "version": "11.0.61030.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "WebAdvisor de McAfee": {
+        "version": "4.1.1.1070",
+        "publisher": "McAfee, LLC"
+      },
+      "ROG CustomHotkey": {
+        "version": "1.2.1",
+        "publisher": "ASUSTek Computer Inc."
+      },
+      "Microsoft Server Speech Recognition Language - TELE (en-IN)": {
+        "version": "11.0.7400.335",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240303"
+      },
+      "Launcher Prerequisites (x64)": {
+        "version": "1.0.0.0",
+        "publisher": "Epic Games, Inc."
+      },
+      "Kinect for Windows Speech Recognition Language Pack (en-AU)": {
+        "version": "11.0.7400.336",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240303"
+      },
+      "Kinect for Windows Speech Recognition Language Pack (fr-FR)": {
+        "version": "11.0.7400.336",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240303"
+      },
+      "Microsoft MPI SDK (10.1.12498.52)": {
+        "version": "10.1.12498.52",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240604"
+      },
+      "Python Launcher": {
+        "version": "3.12.3150.0",
+        "publisher": "Python Software Foundation",
+        "installdate": "20240524"
+      },
+      "AURA Service": {
+        "version": "3.07.54",
+        "publisher": "ASUSTeK Computer Inc."
+      },
+      "Kinect for Windows Speech Recognition Language Pack (fr-CA)": {
+        "version": "11.0.7400.336",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240303"
+      },
+      "ASUS Smart Display Control": {
+        "version": "2.7.0",
+        "publisher": "ASUSTek COMPUTER INC.",
+        "installdate": "20230815"
+      },
+      "Kinect for Windows Speech Recognition Language Pack (de-DE)": {
+        "version": "11.0.7413.611",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240303"
+      },
+      "Kinect for Windows Speech Recognition Language Pack (en-US)": {
+        "version": "11.0.7400.336",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240303"
+      },
+      "TechPowerUp GPU-Z": {
+        "version": "2.66.0",
+        "publisher": "TechPowerUp",
+        "installdate": "20250705"
+      },
+      "Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.44.35211": {
+        "version": "14.44.35211",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20250714"
+      },
+      "Microsoft Server Speech Recognition Language - TELE (ru-RU)": {
+        "version": "11.0.7400.335",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240303"
+      },
+      "Kinect for Windows Speech Recognition Language Pack (it-IT)": {
+        "version": "11.0.7400.336",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240303"
+      },
+      "Kinect for Windows Speech Recognition Language Pack (en-IE)": {
+        "version": "11.0.7400.336",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240303"
+      },
+      "Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161": {
+        "version": "9.0.30729.6161",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20250704"
+      },
+      "Kinect for Windows Speech Recognition Language Pack (en-CA)": {
+        "version": "11.0.7400.336",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240303"
+      },
+      "Kinect for Windows Speech Recognition Language Pack (en-GB)": {
+        "version": "11.0.7400.336",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240303"
+      },
+      "ASUS Update Helper": {
+        "version": "1.3.107.141",
+        "publisher": "ASUSTeK Computer Inc.",
+        "installdate": "20250825"
+      },
+      "AI Noise Cancelation Audio Software": {
+        "version": "3.0.5",
+        "publisher": "ASUSTek Computer Inc."
+      },
+      "Adobe Refresh Manager": {
+        "version": "1.8.0",
+        "publisher": "Adobe Systems Incorporated",
+        "installdate": "20250907"
+      },
+      "Adobe Acrobat Reader DC - Español": {
+        "version": "18.011.20035",
+        "publisher": "Adobe Systems Incorporated",
+        "installdate": "20231222"
+      },
+      "Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030": {
+        "version": "11.0.61030",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240125"
+      },
+      "Microsoft Server Speech Recognition Language - TELE (zh-CN)": {
+        "version": "11.0.7400.335",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240303"
+      },
+      "Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030": {
+        "version": "11.0.61030",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240125"
+      },
+      "Microsoft Server Speech Recognition Language - TELE (pl-PL)": {
+        "version": "11.0.7400.335",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240303"
+      },
+      "Microsoft Visual C++ 2022 X86 Additional Runtime - 14.44.35211": {
+        "version": "14.44.35211",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20250714"
+      },
+      "Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.61030": {
+        "version": "11.0.61030.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft XNA Framework Redistributable 4.0 Refresh": {
+        "version": "4.0.30901.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240426"
+      },
+      "Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211": {
+        "version": "14.44.35211.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "Futuremark SystemInfo": {
+        "version": "5.84.1372.0",
+        "publisher": "Futuremark",
+        "installdate": "20250705"
+      },
+      "Kinect for Windows Speech Recognition Language Pack (es-MX)": {
+        "version": "11.0.7400.336",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240303"
+      },
+      "Kinect for Windows Speech Recognition Language Pack (ja-JP)": {
+        "version": "11.0.7400.336",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240303"
+      },
+      "Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219": {
+        "version": "10.0.40219",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240125"
+      },
+      "Windows SDK AddOn": {
+        "version": "10.1.0.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240603"
+      },
+      "Kinect for Windows Speech Recognition Language Pack (es-ES)": {
+        "version": "11.0.7400.336",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240303"
+      },
+      "Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.30501": {
+        "version": "12.0.30501.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Server Speech Recognition Language - TELE (pt-BR)": {
+        "version": "11.0.7400.335",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240303"
+      },
+      "Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20240125"
+      },
+      "Aura Wallpaper HTML": {
+        "version": "1.4.7.2",
+        "publisher": "ASUSTek Computer Inc."
+      }
+    },
+    "root_group": "Administradores",
+    "shard_seed": 247096368,
+    "time": {
+      "timezone": "Hora est. Pac�fico, Sudam�rica"
+    },
+    "system_enclosure": {
+      "manufacturer": "ASUSTeK COMPUTER INC.",
+      "serialnumber": "R8NRKD033316327"
+    },
+    "chef_guid": "a3e33a5b-239f-405c-aee4-9fa56e313f56",
+    "name": "LAPTOP-NK727H07.mshome.net",
+    "chef_environment": "_default",
+    "recipes": [
+      "docker_swarm",
+      "docker_swarm::default",
+      "docker_swarm::webapp",
+      "docker_swarm::autoscaling"
+    ],
+    "expanded_run_list": [
+      "docker_swarm::default",
+      "docker_swarm::webapp",
+      "docker_swarm::autoscaling"
+    ],
+    "roles": [
+
+    ]
+  },
+  "run_list": [
+    "recipe[docker_swarm::default]",
+    "recipe[docker_swarm::webapp]",
+    "recipe[docker_swarm::autoscaling]"
+  ]
+}

@@ -1,0 +1,68 @@
+# Autoscaling para Docker Swarm gestionado por CHEF
+
+
+$SERVICE_NAME = "webapp"
+$MIN_REPLICAS = <%= @min_replicas %>
+$MAX_REPLICAS = <%= @max_replicas %>
+$CPU_THRESHOLD_HIGH = <%= @cpu_threshold_high %>
+$CPU_THRESHOLD_LOW = <%= @cpu_threshold_low %>
+$LOG_FILE = "C:\chef-autoscaling\logs\autoscaler.log"
+
+# directorio de logs si no existe
+$logDir = Split-Path $LOG_FILE
+if (-not (Test-Path $logDir)) {
+    New-Item -ItemType Directory -Path $logDir -Force | Out-Null
+}
+
+function Write-Log {
+    param($Message)
+    $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    "$timestamp - $Message" | Out-File -Append -FilePath $LOG_FILE
+    Write-Host "$timestamp - $Message"
+}
+
+# número actual de réplicas
+try {
+    $serviceInfo = docker service ls --filter name=$SERVICE_NAME --format "{{.Replicas}}"
+    $CURRENT_REPLICAS = [int]($serviceInfo -split '/')[0]
+    
+    if (-not $CURRENT_REPLICAS) {
+        Write-Log "ERROR: No se pudo obtener el número de réplicas"
+        exit 1
+    }
+    
+    Write-Log "Réplicas actuales: $CURRENT_REPLICAS"
+    
+    # Simular CPU usage (en producción usarías métricas reales)
+    # Aquí generamos un valor aleatorio entre 0-100
+    $CPU_USAGE = Get-Random -Minimum 0 -Maximum 100
+    
+    # En un escenario real, obtendrías CPU así:
+    # $containers = docker ps --filter "name=$SERVICE_NAME" --format "{{.ID}}"
+    # $stats = docker stats --no-stream --format "{{.CPUPerc}}" $containers
+    # $CPU_USAGE = ($stats | Measure-Object -Average).Average
+    
+    Write-Log "CPU Usage simulado: $CPU_USAGE%"
+    
+    # Lógica de autoscaling
+    if ($CPU_USAGE -gt $CPU_THRESHOLD_HIGH -and $CURRENT_REPLICAS -lt $MAX_REPLICAS) {
+        $NEW_REPLICAS = [Math]::Min($CURRENT_REPLICAS + 1, $MAX_REPLICAS)
+        Write-Log "⬆  SCALING UP: $CURRENT_REPLICAS -> $NEW_REPLICAS (CPU: $CPU_USAGE%)"
+        docker service scale "$SERVICE_NAME=$NEW_REPLICAS"
+        Write-Log " Escalado completado"
+    }
+    elseif ($CPU_USAGE -lt $CPU_THRESHOLD_LOW -and $CURRENT_REPLICAS -gt $MIN_REPLICAS) {
+        $NEW_REPLICAS = [Math]::Max($CURRENT_REPLICAS - 1, $MIN_REPLICAS)
+        Write-Log "  SCALING DOWN: $CURRENT_REPLICAS -> $NEW_REPLICAS (CPU: $CPU_USAGE%)"
+        docker service scale "$SERVICE_NAME=$NEW_REPLICAS"
+        Write-Log " Reducción completada"
+    }
+    else {
+        Write-Log "  Sin cambios necesarios (CPU: $CPU_USAGE%, Réplicas: $CURRENT_REPLICAS)"
+    }
+}
+catch {
+    $errorMessage = $_.Exception.Message
+    Write-Log "ERROR: $errorMessage"
+    exit 1
+}
