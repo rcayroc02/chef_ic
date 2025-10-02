@@ -10,8 +10,8 @@ template 'C:\chef-autoscaling\autoscaler.ps1' do
   variables(
     min_replicas: 2,
     max_replicas: 8,
-    cpu_threshold_high: 70,
-    cpu_threshold_low: 30
+    cpu_threshold_high: 25,
+    cpu_threshold_low: 5
   )
   action :create
 end
@@ -25,3 +25,4 @@ windows_task 'docker_autoscaler' do
   frequency_modifier 1
   action [:create, :enable]
 end
+
